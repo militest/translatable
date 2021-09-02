@@ -1,7 +1,7 @@
 {
-    "name": "miladimos/package-skeleton",
+    "name": "laravelir/translatable",
     "description": "test description",
-    "homepage": "https://github.com/miladimos/package-skeleton",
+    "homepage": "https://github.com/laravelir/translatable",
     "type": "library",
     "keywords": [
         "laravel",
@@ -14,33 +14,33 @@
     "authors": [
         {
             "name": "miladimos",
-            "email": "message.tome1331@gmail.com",
+            "email": "miladimos@outlook.com",
             "role": "maintaner",
             "homepage": "https://github.com/miladimos"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Miladimos\\Package\\": "src/"
+            "Laravelir\\Translatable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Miladimos\\Package\\Tests\\": "tests"
+            "Laravelir\\Translatable\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PackageServiceProvider"
+                "TranslatableServiceProvider"
             ],
             "aliases": {
-                "Package": "Miladimos\\Package\\Facades\\PackageFacade"
+                "Translatable": "Laravelir\\Translatable\\Facades\\TranslatableFacade"
             }
         }
     },
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4"

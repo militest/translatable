@@ -1,6 +1,6 @@
-- [![Starts](https://img.shields.io/github/stars/miladimos/laravel-?style=flat&logo=github)](https://github.com/miladimos/laravel-/forks)
-- [![Forks](https://img.shields.io/github/forks/miladimos/laravel-?style=flat&logo=github)](https://github.com/miladimos/laravel-/stargazers)
-  [![Total Downloads](https://img.shields.io/packagist/dt/miladimos/laravel-.svg?style=flat-square)](https://packagist.org/packages/miladimos/laravel-)
+- [![Starts](https://img.shields.io/github/stars/laravelir/translatable?style=flat&logo=github)](https://github.com/laravelir/translatable/forks)
+- [![Forks](https://img.shields.io/github/forks/laravelir/translatable?style=flat&logo=github)](https://github.com/laravelir/translatable/stargazers)
+  [![Total Downloads](https://img.shields.io/packagist/dt/laravelir/translatable.svg?style=flat-square)](https://packagist.org/packages/laravelir/translatable)
 
 - [English](README-en.md)
 
@@ -13,16 +13,16 @@
 1.  برای نصب در مسیر روت پروژه خود دستور زیر را در ریشه پروژه اجرا کنید
 
 ```
-composer require miladimos/laravel-
+composer require laravelir/translatable
 ```
 
-2. Open your config/app.php and add the following to the providers array:
+2. Open your config/translatable.php and add the following to the providers array:
 
 ```php
-Miladimos\Package\Providers\PackageServiceProvider::class,
+Laravelr\Translatable\Providers\TranslatableServiceProvider::class,
 ```
 
-3. Run the command below to publish the package config file config/package.php:
+3. Run the command below to publish the package config file config/translatable.php:
 
 ```
 php artisan vendor:publish
@@ -44,7 +44,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [miladimos](https://github.com/miladimos)
 - [All Contributors](../../contributors)
 
 ## License

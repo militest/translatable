@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Miladimos\Package\Tests;
+namespace Laravelir\Translatable\Tests;
 
 
-use Miladimos\Package\Providers\PackageServiceProvider;
+use Laravelir\Translatable\Providers\TranslatableServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -17,7 +17,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            PackageServiceProvider::class,
+            TranslatableServiceProvider::class,
         ];
     }
 
